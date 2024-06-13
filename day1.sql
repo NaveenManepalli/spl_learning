@@ -27,8 +27,7 @@ create table temp2(
  id int not null
 );
 
-insert into temp2 value(101);
-insert into temp2 value(101);
+
 
 create table emp(
   id int,
