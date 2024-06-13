@@ -23,9 +23,6 @@ create table temp1(
 insert into temp1 value(101);
 insert into temp1 value(102);
 
-create table temp2(
- id int not null
-);
 
 
 
