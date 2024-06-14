@@ -1,1 +1,56 @@
+-------------------------------------------------------------------------------------(day1)--------------------------------------------------------------------------------------------------------------------------
+understood the basic concept of database and started with learning with sql
+ SQL is a programming language used to interact with relational databases.
+ It is used to perform CRUD operations 
+---------------------------------------
+ Create
+ Read
+ Update
+ Delete
 
+started with creating creating the 1st data base
+Creating our First Database
+ Our first SQL Query
+------------------------------
+ CREATE DATABASE db_name;
+ DROP DATABASE db_name;
+
+Creating our First Table
+--------------------------
+ USE db_name;
+ CREATE TABLE table_name ( 
+column_name1 datatype constraint,
+ column_name2 datatype constraint,
+ column_name2 datatype constraint
+ );
+
+1st day that i basically understood the  data types and also the basics of SQL Commands
+
+Types of SQL Commands
+------------------------
+ DDL (Data Definition Language) : create, alter, rename, truncate & drop
+ DQL (Data Query Language) : select
+ DML (Data Manipulation Language) : select, insert, update & delete
+ DCL (Data Control Language) : grant & revoke permission to users
+ TCL (Transaction Control Language) : start transaction, commit, rollback etc.
+
+Database related Queries
+-----------------------------
+CREATE DATABASE db_name;
+ CREATE DATABASE IF NOT EXISTS db_name;(basically if not exist chks wether it present or not in case it is present means it pass only alert msg in this case if we dint use the if not means the presence of the same name will pass the error msg which is a major problem
+)
+ DROP DATABASE db_name;
+ DROP DATABASE IF EXISTS db_name;(same condition goes to if exist but oposite of it)
+ SHOW DATABASES;
+
+Table related Queries
+-----------------------
+----Create---
+ CREATE TABLE table_name ( 
+column_name1 datatype constraint,
+ column_name2 datatype constraint,(we wil be learning about the constrains in up comming days)
+ )
+
+ ---Select & View ALL columns---
+ SELECT * FROM table_name
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
