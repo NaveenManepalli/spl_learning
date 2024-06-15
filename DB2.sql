@@ -23,3 +23,10 @@ select distinct city from student;
 
 select * from student
 where marks >80 and city= "Mumbai";
+
+select * from student
+where city not in("chennai","delhi");
+
+SELECT*FROM student
+ORDER BY marks DESC
+LIMIT 3;
