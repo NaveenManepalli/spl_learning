@@ -1,8 +1,6 @@
 CREATE DATABASE bank;
 USE bank;
 
-
-
 CREATE TABLE payment(
 	user_id INT PRIMARY KEY,
     user VARCHAR(50),
